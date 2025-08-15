@@ -20,7 +20,7 @@ def run_command():
             shell=True,
             capture_output=True,
             text=True,
-            timeout=10 # タイムアウト設定
+            timeout=100 # タイムアウト設定
         )
 
         output = result.stdout
